@@ -1,0 +1,11 @@
+.btn {
+    background-color: #F0131E;
+    color: #FFFFFF;
+    width: 16%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+#submit {
+    width: 100%;
+}
