@@ -10,7 +10,7 @@ function addButtons() {
 };
 
 function addGifs(superhero) {
-    queryURL = "http://api.giphy.com/v1/gifs/search?q=" + superhero + "&api_key=O5gqK18l7eNt8ypQ4z8w0TnVSSukgLzF&limit=10";
+    queryURL = "https://api.giphy.com/v1/gifs/search?q=" + superhero + "&api_key=O5gqK18l7eNt8ypQ4z8w0TnVSSukgLzF&limit=10";
 
     $.ajax({
         url: queryURL,
@@ -21,7 +21,7 @@ function addGifs(superhero) {
         $("#gifs").html("");
         for (var i = 0; i < results.length; i++) {
             var imageDiv = $("<div>").addClass("d-inline-block m-3");
-            var rating = $("<h6>").text(results[i].rating.toUpperCase());
+            var rating = $("<h6>").text("Rating: " + results[i].rating.toUpperCase());
             var image = $("<img>").attr("src", results[i].images.fixed_height_still.url);
             image.attr("src", results[i].images.fixed_height_still.url);
             image.attr("alt", superhero + "-gif");
