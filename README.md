@@ -20,4 +20,4 @@ A Gif Searching application for the popular franchise, **Marvel Entertainment.**
 
 ## Deployed Link
 
-[https://adishthapa.github.io/UNCBootcamp-HW06-GifTastic/index.html](https://adishthapa.github.io/UNCBootcamp-HW06-GifTastic/index.html)
+[https://adishthapa.github.io/marvel-giftastic](https://adishthapa.github.io/marvel-giftastic)
